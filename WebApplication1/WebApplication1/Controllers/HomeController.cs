@@ -8,6 +8,10 @@ namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
+        /// <summary>
+        /// Indexes this instance.
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Index()
         {
             return View();
@@ -22,16 +26,28 @@ namespace WebApplication1.Controllers
             return View();
         }
 
+        /// <summary>
+        /// Reloads this instance.
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Reload()
         {
             return View();
         }
 
-        public ActionResult createOrder()
+        /// <summary>
+        /// Creates the order.
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult CreateOrder()
         {
             return View();
         }
 
+        /// <summary>
+        /// Abouts this instance.
+        /// </summary>
+        /// <returns></returns>
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -39,6 +55,10 @@ namespace WebApplication1.Controllers
             return View();
         }
 
+        /// <summary>
+        /// Contacts this instance.
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
