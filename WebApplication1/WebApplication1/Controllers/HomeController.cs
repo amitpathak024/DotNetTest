@@ -22,7 +22,7 @@ namespace WebApplication1.Controllers
             return View();
         }
 
-        public ActionResult reload()
+        public ActionResult Reload()
         {
             return View();
         }
