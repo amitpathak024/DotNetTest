@@ -13,7 +13,11 @@ namespace WebApplication1.Controllers
             return View();
         }
 
-        public ActionResult Test()
+        /// <summary>
+        /// Loads this instance.
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult Load()
         {
             return View();
         }
