@@ -37,3 +37,4 @@ E:\DotNetTest\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
 E:\DotNetTest\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
 E:\DotNetTest\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 E:\DotNetTest\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+E:\DotNetTest\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
