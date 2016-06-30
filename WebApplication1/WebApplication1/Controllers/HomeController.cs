@@ -11,7 +11,7 @@ namespace WebApplication1.Controllers
         /// <summary>
         /// Indexes this instance.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>View</returns>
         public ActionResult Index()
         {
             return View();
@@ -20,7 +20,7 @@ namespace WebApplication1.Controllers
         /// <summary>
         /// Loads this instance.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>View</returns>
         public ActionResult Load()
         {
             return View();
@@ -29,7 +29,7 @@ namespace WebApplication1.Controllers
         /// <summary>
         /// Reloads this instance.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>View</returns>
         public ActionResult Reload()
         {
             return View();
@@ -38,7 +38,7 @@ namespace WebApplication1.Controllers
         /// <summary>
         /// Creates the order.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>View</returns>
         public ActionResult CreateOrder()
         {
             return View();
@@ -47,7 +47,7 @@ namespace WebApplication1.Controllers
         /// <summary>
         /// Abouts this instance.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>View</returns>
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -58,7 +58,7 @@ namespace WebApplication1.Controllers
         /// <summary>
         /// Contacts this instance.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>View</returns>
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
